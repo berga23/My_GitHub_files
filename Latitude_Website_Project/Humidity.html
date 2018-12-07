@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Latitude-Project-Mauricio_Bergamaschi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home_MB.html">Latitude Project - Mauricio Bergamaschi</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Home_MB.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Max_Temperature.html">Max Temperature</a></li>
+          <li><a href="Humidity.html">Humidity</a></li>
+          <li><a href="Cloudiness.html">Cloudiness</a></li>
+          <li><a href="Wind_Speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="Comparison.html">Comparison</a></li>
+      <li><a href="Data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="jumbotron">
+    
+      <h2>Summary: Latitude vs. Humidity:</h2>
+    
+      <section>
+        <img src="Resources/assets/images/Fig2.jpg" alt="City Latitude vs. Humidity" style="float:left;width:212px;height:212px" id="description-image">
+      <p>
+        There seems to have no correlation between city latitudes and humidity. 
+        </p>
+        <p>This means humidity might not be a consequence of where the city is located in the globe in terms of latitude, but perhaps how far the city is from river, sea or ocean for instance. 
+        </p>
+      </section>
+      </div>
+    </div>
+  
+    <div class="col-md-6">
+        <div class="jumbotron">
+          
+            <h2>Vizualizations</h2>
+          
+
+            <section>
+                    <p>
+                            <a href="Max_Temperature.html">
+                            <img src="Resources/assets/images/Fig1.jpg" alt="City Latitude vs. Max. Temperature" style="width:185PX;height:185PX;border:0;" id="description-image">
+                            </a>
+                            <a href="Humidity.html">
+                            <img src="Resources/assets/images/Fig2.jpg" alt="City Latitude vs. HUmidity" style="width:185PX;height:185PX;border:0;" id="description-image">
+                            </a>
+                            <a href="Cloudiness.html">
+                            <img src="Resources/assets/images/Fig3.jpg" alt="City Latitude vs. Max. Cloudiness" style="width:185PX;height:185PX;border:0;" id="description-image">
+                            </a>
+                            <a href="Wind_Speed.html">
+                            <img src="Resources/assets/images/Fig4.jpg" alt="City Latitude vs. Wind Speed" style="width:185PX;height:185PX;border:0;"id="description-image">
+                            </a>
+                            </p>
+              </section>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<footer class="container-fluid">
+    <p>Copyright Berga Production</p>
+</footer>
+
+</body>
+</html>
